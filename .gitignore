@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual Environments
+.venv/
+.venv-1/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (optional, if you don’t want raw/processed CSVs on GitHub)
+data/*.csv
+
+# Models (optional, if you don’t want to push large model files)
+models/*.pkl
+models/*.json

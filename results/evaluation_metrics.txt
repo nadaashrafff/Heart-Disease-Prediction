@@ -1,0 +1,10 @@
+             Model  Accuracy  Precision   Recall       F1  ROC_AUC
+LogisticRegression  0.820652   0.834951 0.843137 0.839024 0.906265
+               SVM  0.826087   0.830189 0.862745 0.846154 0.902439
+      RandomForest  0.836957   0.833333 0.882353 0.857143 0.897238
+      DecisionTree  0.782609   0.792453 0.823529 0.807692 0.777618
+
+=== Hyperparameter Tuning (Binary) ===
+             Model  Accuracy  Precision   Recall       F1  ROC_AUC
+      RandomForest  0.847826   0.862745 0.862745 0.862745 0.915830
+LogisticRegression  0.820652   0.834951 0.843137 0.839024 0.906265

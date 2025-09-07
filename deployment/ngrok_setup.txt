@@ -1,0 +1,2 @@
+1) streamlit run ui/app.py
+2) Use pyngrok to expose locally if needed.
