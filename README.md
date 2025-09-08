@@ -4,13 +4,13 @@ This project applies machine learning to predict the likelihood of heart disease
 
 # Project Structure
 Heart_Disease_Project/
-│── data/                  # Raw and processed datasets
+│── data/                  
 │   ├── heart_disease_uci.csv
 │   ├── cleaned_heart.csv
 │   ├── heart_selected_features.csv
 │   ├── heart_pca.csv
 │
-│── notebooks/             # Jupyter notebooks for each step
+│── notebooks/             
 │   ├── 01_data_preprocessing.ipynb
 │   ├── 02_pca_analysis.ipynb
 │   ├── 03_feature_selection.ipynb
@@ -18,20 +18,20 @@ Heart_Disease_Project/
 │   ├── 05_unsupervised_learning.ipynb
 │   ├── 06_hyperparameter_tuning.ipynb
 │
-│── models/                # Saved models
+│── models/                
 │   ├── final_model.pkl
 │   ├── model_pipeline.pkl
 │   ├── model_metadata.json
 │
-│── results/               # Metrics and evaluation
+│── results/               
 │   ├── evaluation_metrics.txt
 │
-│── ui/                    # Streamlit app for user interface
+│── ui/                    
 │   ├── app.py
 │
-│── requirements.txt       # Python dependencies
-│── README.md              # Project documentation
-│── .gitignore             # Files ignored in version control
+│── requirements.txt       
+│── README.md             
+│── .gitignore             
 
 # Installation
 
