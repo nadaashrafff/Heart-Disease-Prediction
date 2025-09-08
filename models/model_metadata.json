@@ -1,0 +1,56 @@
+{
+  "features": [
+    "age",
+    "sex_Male",
+    "chol",
+    "trestbps",
+    "thalch",
+    "oldpeak",
+    "ca",
+    "exang",
+    "cp_non-anginal",
+    "cp_atypical angina",
+    "cp_typical angina",
+    "thal_normal",
+    "thal_reversable defect"
+  ],
+  "numeric_cols": [
+    "age",
+    "chol",
+    "trestbps",
+    "thalch",
+    "oldpeak",
+    "ca"
+  ],
+  "binary_cols": [
+    "sex_Male",
+    "exang",
+    "cp_non-anginal",
+    "cp_atypical angina",
+    "cp_typical angina",
+    "thal_normal",
+    "thal_reversable defect"
+  ],
+  "model_class": "RandomForestClassifier",
+  "model_params": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 5,
+    "max_features": "log2",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 5,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 300,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  }
+}
